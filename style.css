@@ -10,6 +10,12 @@ body {
 img {
     margin-left: 700px;
 }
+h1{
+    background-color: brown;
+    font-family: 'Concert One', cursive;
+    font-size: 40px;
+
+}
 p{
 font-family: 'Concert One', cursive;
 background-color: brown;
