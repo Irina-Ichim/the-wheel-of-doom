@@ -10,14 +10,128 @@ body {
 img {
     margin-left: 700px;
 }
-h1{
-    background-color: brown;
-    font-family: 'Concert One', cursive;
-    font-size: 40px;
+:root{
+    --bg:#070914;;
+}
 
+.titulo{
+   display: flex;
+     margin-left: 25rem;
 }
-p{
-font-family: 'Concert One', cursive;
-background-color: brown;
-font-size: 23px;
+    
+h1{
+    font-size: 60px;
+    display: flex;
+    justify-content:space-arround;
+    align-items:baseline;
+    text-shadow: 1px 1px 5px crimson;
+    margin-top: 18px;
+    margin-left: 70px;
+    position: relative;
 }
+    
+.btn_header{
+    background-color: rgb(61, 9, 9);
+    margin: 0 10px;
+    cursor:pointer;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+    
+    
+    .drop{
+        background-color: rgb(80, 3, 19);
+        position:absolute;
+        top: 65%;
+        width: .1em;
+        height: .1em;
+        border-radius: 0 100% 100% 100%;
+        box-shadow: 1px 1px 3px crimson;
+        animation: drop 4s infinite both;
+    }
+    .drop:nth-child(1){
+       left: 13px; 
+    }
+    .drop:nth-child(2){
+        left:9%;
+        animation-delay:-.3s;
+        height: .15em;
+    }
+    .drop:nth-child(3){
+        left: 75px;
+        height: .16em;
+        animation-delay: -1.5s;
+    }
+    .drop:nth-child(4){
+        left: 24%;
+        animation-delay: -.10s;
+    
+    }
+    .drop:nth-child(5){
+        left:28%;
+        animation-delay:-1s;
+        
+    }
+    .drop:nth-child(6){
+        left: 31%;
+        animation-delay: -1.5s;
+    }
+    .drop:nth-child(7){
+        left:37%;
+        animation-delay:-.5s ;
+    }
+    .drop:nth-child(8){
+        left: 46%;
+        animation-delay: -1s;
+    }
+    .drop:nth-child(9){
+        left:49%;
+        animation-delay: -.10s;
+    
+    }
+    .drop:nth-child(10){
+        left:58%;
+        animation-delay: -.5s;
+    }
+    .drop:nth-child(11){
+        left:63%;
+        animation-delay: -.10s;
+    }
+    .drop:nth-child(12){
+        left: 71%;
+        animation-delay: -1s;
+    }
+    .drop:nth-child(13){
+        left:77%;
+        animation-delay: -.10s;
+    }
+    .drop:nth-child(14){
+        left:83%;
+        animation-delay: -1s;
+    }
+    .drop:nth-child(15){
+        left: 88%;
+        animation-delay: -1.5s;
+    }
+    .drop:nth-child(16){
+        left:94%;
+        animation-delay: -.5s;
+    }
+    @keyframes drop{
+        0%{
+            transform: translateX(0) scaleX(.85) rotate(45deg);
+            animation-timing-function: ease-out;
+        }
+        60%{
+            transform: translateY(120%) scaleX(.85) rotate(45deg);
+            animation-timing-function: ease-in;
+        }
+        80%{
+           transform: translateY(50vh) scaleX(.85) rotate(45deg);
+        }
+        100%{
+            transform: translateY(50vh) scaleX(.85) rotate(45deg);
+        }
+    }
