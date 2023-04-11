@@ -4,12 +4,10 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #eeeeee;
+    background-color: white;
 
 }
-img {
-    margin-left: 700px;
-}
+
 :root{
     --bg:#070914;;
 }
@@ -22,7 +20,7 @@ img {
 h1{
     font-size: 60px;
     display: flex;
-    justify-content:space-arround;
+    justify-content:center;
     align-items:baseline;
     text-shadow: 1px 1px 5px crimson;
     margin-top: 18px;
@@ -49,7 +47,7 @@ h1{
         height: .1em;
         border-radius: 0 100% 100% 100%;
         box-shadow: 1px 1px 3px crimson;
-        animation: drop 4s infinite both;
+        animation: drop 6s infinite both;
     }
     .drop:nth-child(1){
        left: 13px; 
