@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 
-
+body{
+    font-family: 'Concert One', cursive;
+}
 
 
 
@@ -21,24 +23,27 @@
 }
 
 .titulo h1 {
-    font-size: 30px;
+    font-family: 'Concert One', cursive;
+    font-size: 60px;
     display: flex;
     justify-content: center;
     align-items: baseline;
     text-shadow: 1px 1px 5px crimson;
     margin-top: 18px;
-    margin-left: 70px;
-    position: relative;
+   position: relative;
+   letter-spacing: 4px;
 }
 
 .btn_header {
+    margin-bottom: -55px;
     background-color: rgb(61, 9, 9);
-    margin: 0 10px;
+
     cursor: pointer;
     border: none;
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
+
 }
 
 
@@ -385,17 +390,10 @@ img {
     margin-top: 30px;
     margin-left: 53%;
     transition: transform 1s ease-in-out;
-<<<<<<< HEAD
-    }
-    
-    
-    .box {
-=======
 }
 
 
 /*  .box {
->>>>>>> 062b678d9763aa5ea45e3eb78d3a240ce98ca051
         color: red;
         font-family: 'Concert One', cursive;
         font-size: larger;
@@ -407,7 +405,7 @@ img {
         cursor: pointer;
         margin-left: 30%;
         margin-top: -300px;
-<<<<<<< HEAD
+
     }
 
 
@@ -422,17 +420,26 @@ img {
         height: 100px;
         width: 100px;
         /*margin-right: 50px;*/
-    }
-        
-=======
-    }*/
+    
+    
+    
 
 
 #btn-choose {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     background-image: url("./img/imagin-btn.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    margin-left: 390px;
+    margin-top: -150px;
+    border-radius: 50%;
 }
->>>>>>> 062b678d9763aa5ea45e3eb78d3a240ce98ca051
+.b{
+    background-color: red;
+    margin-left: 200px;
+    font-family: 'Concert One', cursive;
+    font-size: 45px;
+    margin-top:-190px;
+}
