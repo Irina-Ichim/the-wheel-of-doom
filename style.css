@@ -228,7 +228,7 @@ input:checked+.slider:before {
 }
 
 .navigation {
-
+    font-family: 'Concert One', cursive;
     background: rgb(57, 3, 3);
     position: fixed;
     inset: 40px 0 40px 20px;
@@ -426,14 +426,14 @@ img {
 
 
 #btn-choose {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     background-image: url("./img/imagin-btn.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    margin-left: 390px;
-    margin-top: -150px;
+    margin-left: 490px;
+    margin-top: -250px;
     border-radius: 50%;
 }
 .b{
@@ -441,5 +441,5 @@ img {
     margin-left: 200px;
     font-family: 'Concert One', cursive;
     font-size: 45px;
-    margin-top:-190px;
+    margin-top:-290px;
 }
