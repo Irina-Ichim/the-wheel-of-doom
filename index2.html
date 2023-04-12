@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,14 +9,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
     <title>The whell of Doom</title>
-    <link rel = "stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+
     <div class="container principal">
         <header class="titulo">
-            <h1 class="sangrado">
-                The Wheel Of Doom
+            <h1 class="sangrado"> The Wheel Of Doom
                 <span class="drop"></span>
                 <span class="drop"></span>
                 <span class="drop"></span>
@@ -31,58 +32,64 @@
                 <span class="drop"></span>
                 <span class="drop"></span>
                 <span class="drop"></span>
-                <span class="drop"></span>
-                <button class="btn_header" onmousedown="music.play()"></button></h1>
-                <audio id="music" src="sonidos/sonido terrorifico.mp3"></audio>
-                <label class="switch">
-                    <input type="checkbox" id="slider" checked>
-                    <span class="slider"></span>
-                </label>
-        
+                <span class="drop"></span> </h1>
+            <audio id="music" src="sonidos/sonido terrorifico.mp3"></audio>
+            <button class="btn_header" onmousedown="music.play()"></button>
+            <label class="switch">
+                <input type="checkbox" id="slider" checked>
+                <span class="slider"></span>
+            </label>
+
         </header>
+        
         <div class="navigation">
             <div class="menu">
-            <ul>
-                <li class="list active">
-                    <span class = "icon" style="--clr:darkred;"><ion-icon name="happy-outline"></ion-icon></span><a href="#">Our team</a>
-                
-                </li>
-                <li class="list">
-                    <span class = "icon" style="--clr:rgb(232, 107, 6);"><ion-icon name="information-circle-outline"></ion-icon></span><a href="#">About</a>
-                </li>
-                <li class="list">
-                    <span class = "icon" style="--clr:#a92222;"><ion-icon name="game-controller-outline"></ion-icon></span><a href="#">Como Jugar</a>
-                </li>
-                <li class="list">
-                    <span class = "icon" style="--clr:#f32121;"><ion-icon name="heart-outline"></ion-icon></span><a href="#">Damos las Gracias</a>
-                </li>
-            </ul>
+                <ul>
+                    <li class="list active">
+                        <span class="icon" style="--clr:darkred;"><ion-icon name="happy-outline"></ion-icon></span><a
+                            href="#">Our team</a>
+
+                    </li>
+                    <li class="list">
+                        <span class="icon" style="--clr:rgb(232, 107, 6);"><ion-icon
+                                name="information-circle-outline"></ion-icon></span><a href="#">About</a>
+                    </li>
+                    <li class="list">
+                        <span class="icon" style="--clr:#a92222;"><ion-icon
+                                name="game-controller-outline"></ion-icon></span><a href="#">Como Jugar</a>
+                    </li>
+                    <li class="list">
+                        <span class="icon" style="--clr:#f32121;"><ion-icon name="heart-outline"></ion-icon></span><a
+                            href="#">Damos las Gracias</a>
+                    </li>
+                </ul>
             </div>
+        </div>
+
+        <div class="containeruno">
+            <img id="image" img src="img/FotoNueva.png">
+
+            <audio id="sound" src="sonidos/sonido ruleta.mp3"></audio>
+
+            <div class="col-md-6">
+    
+                <div id="btn-choose"></div>
+           <div id="result" class="b"></div>
+                <audio id="name-sound" src=""></audio>
             </div>
-
-            <div class="containeruno">
-              <img id="image" img src="img/FotoNueva.png">
-
-              <audio id="sound" src="sonidos/sonido ruleta.mp3"></audio>
-                
-                <div class="col-md-6"> 
-                  <button id="btn-choose"><img src ="img/imagin-btn.jpg"></button >
-                
-                  <div id="result"></div>
-                  <audio id="name-sound" src=""></audio>
-                </div>
-            </div>
+        </div>
 
 
 
 
 
 
-</div>
+    </div>
 
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>   
-  <script src="whell.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="whell.js"></script>
 </body>
+
 </html>

@@ -114,6 +114,7 @@ function generateRandomName() {
     result.textContent = randomName;
   };
 }
+
 const preferedColorScheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
 const slider = document.getElementById('slider');
 
