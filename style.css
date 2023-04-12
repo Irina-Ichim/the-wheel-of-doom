@@ -6,6 +6,10 @@
 
 body{
     font-family: 'Concert One', cursive;
+    background-image: url("img/7bc5_uzms_220204.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+   
 }
 
 
@@ -432,5 +436,5 @@ img {
     font-family: 'Concert One', cursive;
     font-size: 45px;
     margin-top:-290px;
-    color: darkred;
+    color: rgba(8, 8, 8, 0.911);
 }
