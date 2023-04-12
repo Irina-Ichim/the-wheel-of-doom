@@ -437,9 +437,10 @@ img {
     border-radius: 50%;
 }
 .b{
-    background-color: red;
+    
     margin-left: 200px;
     font-family: 'Concert One', cursive;
     font-size: 45px;
     margin-top:-290px;
+    color: darkred;
 }
