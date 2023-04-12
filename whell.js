@@ -59,6 +59,12 @@ function spin() {
     image.style.transform = `rotate(${degrees}deg)`;
   }, 10000);
 }
+document.getElementById("btn-choose").addEventListener("click",function () {
+  spin();
+  generateRandomName();
+  
+})
+
 
 let names = ["Ikram", "Irina", "Maribel", "Lola", "Javi", "Gabriela", "Pamela", "Manuel", "Minerva", "Nelly", "Jezabel", "Cyntia", "Jhoana", "Irina S.", "Tati", "Nadia", "Halima", "Telma"];
 
