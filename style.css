@@ -229,7 +229,7 @@ input:checked+.slider:before {
 
 .navigation {
     font-family: 'Concert One', cursive;
-    background: rgb(57, 3, 3);
+    background: rgb(231, 5, 5);
     position: fixed;
     inset: 40px 0 40px 20px;
     width: 80px;
@@ -312,7 +312,8 @@ input:checked+.slider:before {
 
 .navigation ul li.active {
     transform: translateX(30px);
-    background: var(--bg);
+   /* background: var(--bg);*/
+   background: rgb(62, 2, 108);
 }
 
 .navigation ul li a {
@@ -366,17 +367,6 @@ input:checked+.slider:before {
     filter: blur(8px);
     opacity: 0;
     transition: 0.5s;
-}
-
-.icon::after {
-    content: '';
-    position: absolute;
-    left: -70px;
-    width: 10px;
-    height: 10px;
-    background: var(--clr);
-    border: 8px solid var(--bg);
-    border-radius: 50px;
 }
 
 .containeruno {
