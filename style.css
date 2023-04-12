@@ -133,6 +133,17 @@ h1{
             transform: translateY(50vh) scaleX(.85) rotate(45deg);
         }
     }
+    [data-theme="light"]{
+        --primary:#ebebeb;
+        --background:#000;
+        --text:#000;
+     }
+     [data-theme="dark"]{
+
+        --primary:#000;
+        --background:#f8f0f0;
+        --text:#fff;
+     }
 
     .switch {
         position: relative;
