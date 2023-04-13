@@ -14,10 +14,10 @@ body{
 
 
 
-:root {
+/*:root {
     --bg: #070914;
-    ;
-}
+    
+}*/
 
 .titulo {
     display: flex;
