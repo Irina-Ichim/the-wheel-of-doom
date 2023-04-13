@@ -50,7 +50,7 @@ function spin() {
   let timeout = setTimeout(function () {
     let message = messages[Math.floor(Math.random() * messages.length)];
     alert(message);
-  }, random * 1000);
+  }, random * 800);
 
 
   setTimeout(function () {
