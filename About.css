@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+
+}
+
+.About{
+    display: flex;
+    justify-content: center;
+
+}
+
+h1{
+    font-size: 35px;
+    color: red;
+    margin: 10%;
+}
