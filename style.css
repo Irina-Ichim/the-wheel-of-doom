@@ -170,7 +170,7 @@ body {
 [data-theme="light"] {
     --primary: #ebebeb;
     --background: #000;
-    --text: #000;
+    --text: white;
 }
 
 [data-theme="dark"] {
@@ -409,9 +409,9 @@ img {
 
     margin-left: 200px;
     font-family: 'Creepster', cursive;
-    font-size: 45px;
+    font-size: 65px;
     margin-top: -290px;
-    color: rgba(8, 0, 0, 0.911);
+    color: rgba(70, 19, 19, 0.911);
 }
 
     @media (max-width: 767px) {
