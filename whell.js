@@ -12,6 +12,9 @@ function activeLink() {
 list.forEach((item) =>
   item.addEventListener('click', activeLink));
 
+
+
+  
 let messages = [
   "¡Felicidades, has ganado un premio!",
   "Inténtalo de nuevo",
@@ -32,6 +35,8 @@ let messages = [
   "Sigue intentándolo, la suerte puede cambiar en cualquier momento",
   "No te rindas, ¡inténtalo de nuevo!"
 ];
+
+
 
 function spin() {
   let degrees = 0;
@@ -59,6 +64,7 @@ function spin() {
     image.style.transform = `rotate(${degrees}deg)`;
   }, 10000);
 }
+
 document.getElementById("btn-choose").addEventListener("click",function () {
   spin();
   generateRandomName();

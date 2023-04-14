@@ -7,44 +7,43 @@
 
 
 body {
-    font-family: 'Concert One', cursive;
+    font-family: 'Creepster', cursive;
     background-color: var(--primary);
     background-image: url("img/bloody-handprint-2.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: normal;
 }
-
-
-
-/*:root {
-    --bg: #070914;
-    
-}*/
+.container-principal{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
 
 .titulo {
     display: flex;
     width: 100%;
-    justify-content: flex-end;
+    padding: 20px;
+    justify-content:center;
     align-items: center;
 }
 
 .titulo h1 {
-    font-family: 'Concert One', cursive;
-    font-size: 60px;
+    font-family: 'Creepster', cursive;
+    font-size: 80px;
     display: flex;
     justify-content: center;
-    align-items: baseline;
-    text-shadow: 1px 1px 5px crimson;
-    margin-top: 18px;
+    align-items: center;
     position: relative;
+    text-shadow: 2px 2px 5px rgb(142, 12, 18);
+    margin-top: 18px;
+    color: #110101;
     letter-spacing: 4px;
 }
 
 .btn_header {
     margin-bottom: -55px;
-    background-color: rgb(61, 9, 9);
-
+    background-color: rgb(25, 5, 5);
     cursor: pointer;
     border: none;
     border-radius: 50%;
@@ -52,7 +51,6 @@ body {
     height: 10px;
 
 }
-
 
 .drop {
     background-color: rgb(80, 3, 19);
@@ -110,18 +108,18 @@ body {
 
 .drop:nth-child(9) {
     left: 49%;
-    animation-delay: -.10s;
+    animation-delay: -.4s;
 
 }
 
 .drop:nth-child(10) {
     left: 58%;
-    animation-delay: -.5s;
+    animation-delay: -.2s;
 }
 
 .drop:nth-child(11) {
     left: 63%;
-    animation-delay: -.10s;
+    animation-delay: -.6s;
 }
 
 .drop:nth-child(12) {
@@ -183,11 +181,10 @@ body {
 }
 
 .switch {
-    position: relative;
-    display: inline-block;
+   position: relative;
+    display: flex;
     width: 60px;
     height: 34px;
-    margin-left: 27%;
     margin-top: 37px;
 
 }
@@ -235,11 +232,13 @@ input:checked+.slider:before {
 }
 
 .navigation {
-    font-family: 'Concert One', cursive;
+    margin-top: 30px;
+    font-family: 'Creepster', cursive;
     background: rgb(179, 2, 2);
     position: fixed;
     inset: 40px 0 40px 20px;
     width: 80px;
+    height: 700px;
     transition: 0.5s;
     display: flex;
     justify-content: center;
@@ -384,44 +383,16 @@ input:checked+.slider:before {
 img {
     width: 600px;
     height: 600px;
-    margin-top: 30px;
-    margin-left: 53%;
+    margin-left: 55%;
     transition: transform 1s ease-in-out;
 }
 
-
-/*  .box {
-        color: red;
-        font-family: 'Concert One', cursive;
-        font-size: larger;
-        display: flex;
-        justify-content: space-between;
-        align-items:center;
-        width: 20%;
-        height: 40%;
-        cursor: pointer;
-        margin-left: 30%;
-        margin-top: -300px;
-
-    }
-
-
-   .col-md-6 button{
-        background-color: #fff;
-        
-        border: none;
-    }
-
-    .col-md-6 img{
-
-        height: 100px;
-        width: 100px;
-        /*margin-right: 50px;*/
-
-
-
-
-
+.col-md-6 img{
+    height: 100px;
+    width: 100px;
+    
+}
+          
 #btn-choose {
     width: 150px;
     height: 150px;
@@ -437,23 +408,71 @@ img {
 .b {
 
     margin-left: 200px;
-    font-family: 'Concert One', cursive;
+    font-family: 'Creepster', cursive;
     font-size: 45px;
     margin-top: -290px;
-    color: rgba(8, 8, 8, 0.911);
+    color: rgba(8, 0, 0, 0.911);
 }
-@media  (max-width:698px){
-   
-    .container-principal{
 
-        grid-template-columns: 1fr;
+    @media (max-width: 767px) {
+    
+        .titulo h1{
+            font-size: 34px;
+        }
+        .btn_header{
+            font-size: small;
+            width: 7px;
+            height: 7px;
+            align-items: end;
+            display: flex;
+        }
+        .switch{
+            height:20px;
+            width: 40px;
+        }
+        .slider:before{
+            height: 14px;
+            width: 12px;
+            margin: -4px;
+        }
+        
+        .imagen.principal {
+            position: absolute;
+            width: 190px;
+            margin-top: 20%;
+        }
+        .navigation{
+            width: 8%;
+            position: absolute;
+            height: 800px;
+        }
+        .navigation.active{
+            width: 90px;
+        }
+     /*   .menu {
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }*/
+        .list {
+            margin: 5px 0;
+            padding: 10px 0;
+        }
+        .list a {
+            font-size: 10px;
+            text-align: center;
+        }
+        #btn-choose{
+            margin-top: 5px;
+        }
+        .b{
+            font-size: 20px;
+            margin-left: 360px;
+            margin-top: 180px;
+            position: absolute;
+        }
     }
 
-   
-    body{
-        background-color: #2611c8;
-        grid-template-columns: 1fr;
     
-    }
     
-}
+

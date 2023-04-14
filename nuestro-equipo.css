@@ -6,6 +6,7 @@
 body{
    height: 100vh;
     background: #000;
+    font-family: 'Creepster', cursive;
 }
 section{
     background: #000;
@@ -27,17 +28,16 @@ section:before{
 
 h2{
     color: rgb(219, 21, 21);
-    font-family: 'Concert One', cursive;
-
-        text-align:center;
-        font-size: 4.5em;
-        color:white;
-        margin-top: 35px;
-        letter-spacing: -7px;
-        font-weight:700;
-        text-transform:uppercase;
-        animation: blur 3.5s ease-out infinite;
-        text-shadow:0px 0px 5px #fff,
+    font-family: 'Creepster', cursive;
+    text-align:center;
+    font-size: 7.5em;
+    color:white;
+    margin-top: 35px;
+    letter-spacing: -7px;
+    font-weight:700;
+    text-transform:uppercase;
+    animation: blur 3.5s ease-out infinite;
+    text-shadow:0px 0px 5px #fff,
             0px 0px 7px #fff;
     }
       
@@ -65,7 +65,6 @@ h2{
     }
 
   div{
-  /*  position: relative;*/
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -74,15 +73,15 @@ h2{
   
   video{
     object-fit:cover;
-  }     
+  }
+
 h6{
-  /*  margin-top: 250px;*/
     height: 150px;
     transform: translateY(-50%);
     width: 100%;
     text-align: center;
     color: #fff;
-    font-family: 'Concert One', cursive;
+    font-family: 'Creepster', cursive;
     font-size: 4em;
     letter-spacing: 0.1em;
 }
@@ -122,6 +121,12 @@ h6 span:nth-child(6){
 }
 h6 span:nth-child(7){
     animation-delay: 4s ;
+}
+
+@media (max-width: 767px) {
+    h2{
+        font-size: 90px;
+    }
 }
 
 
