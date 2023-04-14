@@ -6,10 +6,11 @@
 
 body{
     font-family: 'Concert One', cursive;
-    background-image: url("img/7bc5_uzms_220204.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-   
+    background-color: var(--primary);
+    background-image: url("")
+    background-repeat: normal;
+    background-blend-mode: normal;
+
 }
 
 
@@ -215,7 +216,7 @@ body{
     width: 26px;
     left: 4px;
     bottom: 4px;
-    background-color: red;
+    background-color: rgb(154, 10, 10);
     -webkit-transition: .4s;
     transition: .4s;
     border-radius: 50%;
@@ -233,7 +234,7 @@ input:checked+.slider:before {
 
 .navigation {
     font-family: 'Concert One', cursive;
-    background: rgb(179, 2, 2);
+    background: rgb(166, 5, 5);
     position: fixed;
     inset: 40px 0 40px 20px;
     width: 80px;
@@ -317,7 +318,7 @@ input:checked+.slider:before {
 .navigation ul li.active {
     transform: translateX(30px);
    /* background: var(--bg);*/
-   background: rgb(98, 5, 5);
+   background: rgb(47, 9, 42);
 }
 
 .navigation ul li a {
