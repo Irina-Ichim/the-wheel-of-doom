@@ -10,11 +10,12 @@ body {
     font-family: 'Creepster', cursive;
     background-color: var(--primary);
     background-image: url("img/bloody-handprint-2.png");
-    background-size: cover;
+    background-size:cover;
     background-repeat: no-repeat;
     background-blend-mode: normal;
 }
 .container-principal{
+    background-image: url("img/Pennywise-Clown-From.webp");
     display: flex;
     flex-direction: column;
     height: 100vh;
