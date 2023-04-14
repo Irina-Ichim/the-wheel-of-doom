@@ -216,7 +216,7 @@ body {
     width: 26px;
     left: 4px;
     bottom: 4px;
-    background-color: red;
+    background-color: rgb(154, 10, 10);
     -webkit-transition: .4s;
     transition: .4s;
     border-radius: 50%;
@@ -319,8 +319,8 @@ input:checked+.slider:before {
 
 .navigation ul li.active {
     transform: translateX(30px);
-    /* background: var(--bg);*/
-    background: rgb(98, 5, 5);
+   /* background: var(--bg);*/
+   background: rgb(98, 5, 5);
 }
 
 .navigation ul li a {

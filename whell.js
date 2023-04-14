@@ -27,7 +27,7 @@ let messages = [
   "Vuelve a intentarlo",
   "Nada de nada, inténtalo de nuevo",
   "¡Buen intento!",
-  "No ha sido tu día, inténtalo mañana",
+  "la vida es hermosa, inténtalo mañana",
   "¡Lo conseguiste!",
   "No desesperes, sigue intentándolo",
   "La suerte te sonríe, ¡sigue así!",
@@ -135,6 +135,8 @@ slider.addEventListener('click', () => {
 });
 
 setTheme(localStorage.getItem('theme') || preferedColorScheme);
+
+
 
 
 
