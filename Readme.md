@@ -21,9 +21,9 @@ Este proyecto, llamado "The Wheel of Doom," fue desarrollado como parte de un bo
 1. Clona este repositorio en tu máquina local.
 2. Abre el archivo `index.html` en tu navegador para ejecutar la aplicación.
 
-## Demo
+## Gif
 
-![Demo del Proyecto](Video/videoreadme.mp4)
+![Gif del Proyecto](Video/videoreadme.gif)
 
 ## Contribuciones
 
