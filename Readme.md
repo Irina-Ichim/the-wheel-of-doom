@@ -2,7 +2,7 @@
 
 ![Captura de Pantalla del Proyecto](img/proyectobootcamp.png)
 
-Este proyecto, llamado "The Wheel of Doom," fue desarrollado como parte de un bootcamp por [Tus Nombres](https://github.com/Irina-Ichim), [Irina Ichim](https://github.com/ikramadam), y [Maribel González](https://github.com/mari19-83). Es una aplicación web interactiva que simula una ruleta de la suerte con mensajes personalizados para el usuario. Además, incluye una función de cambio de tema (modo oscuro) y efectos visuales especiales.
+Este proyecto, llamado "The Wheel of Doom," fue desarrollado como parte de un bootcamp de programadoras full stack por [Irina](https://github.com/Irina-Ichim), [Ikram](https://github.com/ikramadam), y [Maribel](https://github.com/mari19-83). Es una aplicación web interactiva que simula una ruleta de la suerte con mensajes personalizados para el usuario. Además, incluye una función de cambio de tema (modo oscuro) y efectos visuales especiales.
 
 ## Tecnologías Utilizadas
 
@@ -23,7 +23,7 @@ Este proyecto, llamado "The Wheel of Doom," fue desarrollado como parte de un bo
 
 ## Demo
 
-[Ver Demo del Proyecto](Video/videoreadme.mp4)
+![Demo del Proyecto](Video/videoreadme.mp4)
 
 ## Contribuciones
 
@@ -34,6 +34,12 @@ Este proyecto, llamado "The Wheel of Doom," fue desarrollado como parte de un bo
 3. Realiza tus cambios y commitea: `git commit -m 'Agrega nueva función'`
 4. Empuja los cambios a tu repositorio: `git push origin nueva-funcion`
 5. Abre un Pull Request en este repositorio.
+
+## Colaboradores
+
+- [Irina Ichim](https://github.com/Irina-Ichim)
+- [Ikram Adam](https://github.com/ikramadam)
+- [Maribel González](https://github.com/mari19-83)
 
 ---
 Si tienes alguna pregunta o comentario sobre el proyecto, no dudes en contactarnos.
